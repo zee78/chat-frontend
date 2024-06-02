@@ -1,0 +1,39 @@
+.chatGrid{
+  grid-template-columns: 1fr 3fr;
+}
+.user-list ul{
+  height: calc(100vh - 134px);
+}
+.user-list ul li{
+  box-shadow: 0px 0px 7px 1px #e1dede;
+}
+li.active{
+  background-color: #252525;
+  border-left: 5px solid #44D7B6;
+}
+.active p{
+  color: #fff;
+}
+.active span{
+  color: #fff;
+}
+.react-input-emoji--container{
+  margin: 0 !important;
+  border: 0 !important;
+  padding: 10px;
+}
+.react-emoji-picker--wrapper{
+  top: auto !important;
+}
+.conversation-list{
+  height: calc(100vh - 140px);
+}
+.conversation-list .message-content, .send-message{
+  box-shadow: 0px 0px 11px 2px lightgrey;
+}
+.menu-icons{
+  display: none;
+}
+.conversation-list .message-list:hover .menu-icons{
+  display: block;
+}
